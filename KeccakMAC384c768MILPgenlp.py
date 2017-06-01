@@ -1,3 +1,7 @@
+'''
+KeccakMAC384c768MILPgenlp.py
+Using SageMath, run this file and obtain file "lpKeccakMAC384c768.lp" as a model in Gurobi.
+'''
 from brial import *
 import copy
 import pdb
@@ -84,7 +88,7 @@ for i in xrange(12):
 state[2][0]=c(0)
 state[7][0]=c(0)
 
-f=open('lpkeccak1600c768-2.lp','w')
+f=open('lpKeccakMAC384c768.lp','w')
 
 
 f.write('Maximize\n')
