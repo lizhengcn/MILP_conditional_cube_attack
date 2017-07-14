@@ -170,7 +170,7 @@ int main()
 	int tempkey[3]={0};
 
 
-	UINT64 i,j,k,temp,temp1,counter,a;
+	UINT64 i,j,k,temp,temp1;
 	unsigned int rightkey[3]={0};
 
 	unsigned int index0[2][2];
@@ -256,8 +256,9 @@ int main()
 	InitialState[0]=Key[0];
 	InitialState[6]=Key[1];
 	InitialState[12]=Key[2];
- 
-
+	
+	InitialState[13]|=((UINT64)0x1);
+	InitialState[21]|=((UINT64)0x1<<63);
 
 	 rightkey[0]=((Key[1]>>42)&1);      
 	 rightkey[1]=((Key[1]>>31)&1);    
