@@ -269,12 +269,7 @@ int main()
 	 rightkey[2]=((Key[0]>>38)&1)^((Key[1]>>38)&1);    
 	
 
-	 for(i=0;i<5;i++){
-		 for(j=0;j<5;j++){
-			printf("%llx\t",InitialState[5*i+j]);
-		 }
-		 printf("\n");
-	 }
+	 
 
 
 	fprintf(f,"right key:");
