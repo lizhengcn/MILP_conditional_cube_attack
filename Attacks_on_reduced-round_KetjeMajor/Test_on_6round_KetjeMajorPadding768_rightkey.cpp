@@ -1,9 +1,9 @@
 /* 
-2 	Test_on_6round_KetjeMajorPadding768_rightkey.cpp 
-3 	Test whether the cube sum with the right key guess is zero or not. 
-4 	The program is run in Visual Studio 2010 with x64 platform Release.  
-5 	One experiment averagely takes 76 minutes with this procedure.  
-6 */ 
+ 	Test_on_6round_KetjeMajorPadding768_rightkey.cpp 
+ 	Test whether the cube sum with the right key guess is zero or not. 
+ 	The program is run in Visual Studio 2010 with x64 platform Release.  
+ 	One experiment averagely takes 76 minutes with this procedure.  
+*/ 
 
 #include <stdio.h>
 #include <conio.h>
