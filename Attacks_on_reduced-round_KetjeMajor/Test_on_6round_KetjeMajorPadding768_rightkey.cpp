@@ -319,8 +319,7 @@ int main()
 	fprintf(f,"\n");
 	printf("\n");
 	
-	//give the value for dynamic value
-	
+	//give the value for dynamic value, to be simple, we set the nonce to all zero
 	
 	temp=(InitialState[18]>>41)&1;
 	temp1=(tempkey[0]&1) ^ 1;
